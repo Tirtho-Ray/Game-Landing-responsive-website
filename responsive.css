@@ -61,5 +61,16 @@
     .nav-icon {
       font-size: 20px;
     }
+    .banner-seaction{
+      flex-direction:column-reverse;
+      height: auto;  
+      align-items: center;
+   }
+   .banner-img{
+    width: 100%;
+    height: 220px;
+    max-width: 300px;
   }
+  }
+  
   

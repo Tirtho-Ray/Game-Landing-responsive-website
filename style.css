@@ -3,12 +3,13 @@
     margin: 0; */
     box-sizing: border-box;
 }
+/* navbar-seaction */
 .navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 130px;
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
     background-color: rgba(255, 255, 255, 1);
 }
@@ -66,4 +67,74 @@
 }
 .nav-icon{
     font-size: 30px;
+}
+/* navbar-seaction end */
+.banner-seaction{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 40px;
+     
+}
+.banner-img{
+    width: 611px;
+    height: 446px;
+}
+.banner-bio{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #0B0223;
+    margin: 0;
+    font-family: Work Sans;
+}
+.goat{
+    font-size: 75px;
+     margin: 5px 0px 0px;
+     font-weight: bold;
+     background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     color: transparent;
+     -webkit-background-clip:text;
+}
+/* banner-container banner-icon start*/
+.banner-icon{
+   
+    font-size: 2opx;
+}
+.play-icon{
+    padding-top: 20px;
+}
+
+.download-icon{
+    padding-top: 20px;
+}
+
+.man-icon{
+    padding-top: 20px;
+}
+/* banner-container banner-icon end */
+.btn{
+    display:gr
+}
+
+.btn1{
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color:rgb(229, 138, 153);
+    border-radius: 40px;
+    color: white;
+
+}
+.btn2{
+    margin-left: 10px;
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color:rgb(10, 170, 198);
+    border-radius: 40px;
+    color: white;
+
 }
