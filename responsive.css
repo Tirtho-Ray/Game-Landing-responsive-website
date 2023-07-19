@@ -1,22 +1,6 @@
-/* @media screen and (max-width:480px) {
-    .navbar{
-        flex-direction: column;
-        align-items: center;
-    }
-    .logo {
-        margin-bottom: 10px;
-    }
-    .nav-item{
-        flex-direction: column;
-        align-content: center;
-    }
-    .nav-item-ul ul{
-        
-        flex-direction: column;
-    }
-    
-} *//* For screens with width less than or equal to 485px */
+
 @media (max-width: 485px) {
+  /* .navbar start */
     .navbar {
         flex-direction: column;
         height: auto;
@@ -53,6 +37,7 @@
       gap: 8px;
       padding: 8px; 
     }
+
   
     .nav-item-icon li {
       display: inline;
@@ -61,6 +46,9 @@
     .nav-icon {
       font-size: 20px;
     }
+    /* nav-end */
+
+    /* start-banner-container */
     .banner-seaction{
       flex-direction:column-reverse;
       height: auto;  
@@ -71,6 +59,207 @@
     height: 220px;
     max-width: 300px;
   }
+  /* End-banner container */
+
+  /* about-game start */
+  .about-game{
+
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    padding: 8px 0; 
+    align-items: center;
+    align-content: center;
+      
   }
+  .about-game-bio{
+    text-align: center;
+  }
+  .about-game-bio .p{
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 12px;
+    align-items: center;
+  }
+  .about-game-bio .about{
+    font-size: 20px;
+    padding: 0px;
+    margin-top:10px;
+
+  }
+  /* about-game end */
+  /* game-heading start */
+  .game{
+    font-size: 28px;
+    text-align: center;
+  }
+  .game-bio{
+    font-size: 12px;
+  }
+  /* end-game heaading */
+  /* start-game-card */
+  .game-card{
+    flex-direction: column;
+    gap: 150px;
+    text-align: center;
+    padding: 8px 0; 
+    align-items: center;
+    align-content: center;
+    border: none;
+  }
+  .card-1{
+    border:none;
+    width: 65%;
+  }
+  /* .end-play-card */
+
+  /* start-play-game */
+  .play-game{
+    flex-direction: column;
+    margin-top: 20%;
+    gap: 8px;
+    text-align: center;
+    padding: 8px 70px; 
+    align-items: center;
+    align-content: center;
+  }
+  .play-game-bio{
+    text-align: center;
+    align-items: center;
+
+  }
+  .title{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-left: 50px;
+  }
+  .title span{
+    font-size: 30px;
+
+  }
+  .play-game-bio .pragraph{
+    margin-top: 0px;
+    text-align: center;
+    margin-left:0px;
+    font-size: 15px;
+}
+  .game-img-1{
+    text-align: center;
+    width: 80%;
+    margin-top: 10%;
+    margin-left:0px;
   
+  }
+  .game-img-2{
+    width: 40%;
+    bottom: 70px;
+    margin-right:200px;
+    margin-left: 0px;
+  }
+  .play-game-2{
+    flex-direction: column;
+    margin-top: 0%;
+    text-align: center;
+    padding: 8px 70px; 
+    align-items: center;
+    align-content: center
+  }
+  .title-2{
+    font-size: 15px;
+    margin-right: 20px;
+  }
+  .pragraph-2{
+    font-size: 8px;
+    text-align: center;
+  }
+  .game-img-2-1{
+    width: 40%;
+    position: relative;
+    bottom:80px;
+  
+  }
+  /* end-play-game */
+
+  /* many-game container-start */
+  .select-game{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 25px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    grid-gap:20px 10px
+  
+}
+.game-box-1 img{
+  width: 30%;
+}
+.game-box-1 p{
+  font-size: 5px;
+}
+.game-box-1{
+  width: 80px;
+  height: 30px;
+  border-radius: 30px;
+  border: 2px solid red;
+  padding: 3px;
+
+}
+/* many-game container-end */
+
+  /* Footer start*/
+  .footer{
+    margin-top: 40%;
+    width: 100%;
+    flex-direction: column; 
+    gap: px;
+    text-align: center;
+    padding: 8px 0; 
+    align-items: center;
+    align-content: center
+
+  }
+  .foot-logo img{
+    width: 12%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 0px;
+  }
+  .foot-logo h3{
+    font-size: 15px;
+    color: white;
+}
+.footer .bio{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  justify-content: center;
+  color: white;
+  font-size: 8px;
+  gap:0px;
+}
+.footer .foot-icon{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-content: center;
+  font-size: 18px;
+  color: wheat;
+  margin-top: 20px;
+}
+.footer .foot-p{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: center;
+  color: white;
+  font-size: 10px;
+  gap:0px;
+}
+.footer .foot-end{
+  font-size: 12px;
+  gap: 10px;
+  color: white;
+}
+/* footer end */
+}
   
