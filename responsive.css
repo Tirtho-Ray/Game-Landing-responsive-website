@@ -263,3 +263,95 @@
 /* footer end */
 }
   
+
+/* start responsive for tbalet divices */
+@media screen and (min-width:480px) and (max-width:780px) {
+  .navbar {
+    height: auto;
+    /* padding: 30px; */
+    margin-left: 15px;
+    gap: 8px;
+    /* padding: 8px 20px;  */
+    align-items: center;
+     align-content: center;
+     max-width: 700px;
+     
+  }
+
+  .banner-seaction{
+      gap: 8px;
+      text-align: center;
+      padding: 0px 0; 
+      align-items: center;
+      align-content: center;
+      margin-left: 50px;
+  }
+  .banner-img{
+    width: 80%;
+  }
+  .btn-2{
+    margin-top: 10px;
+  }
+  .banner-icon{
+    text-align: start;
+  }
+  .about-game{
+    text-align: center;
+    padding: 0px 0; 
+    align-items: center;
+    align-content: center;
+    margin-left: 50px;
+
+}
+.about-game img{
+  padding: 0px;
+  width: 50%;
+}
+.game-card{
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+}
+.title h1{
+  font-size: 24px;
+
+}
+.game-img-1{
+  margin-right: 10px;
+}
+.about-game{
+
+}
+.play-game-img{
+  margin-right: 20px;
+}
+.play-game-img .game-img-1-2{
+  margin-left: 20px;
+}
+.title-2 h1{
+  font-size: 24px;
+}
+
+.pragraph-2{
+  font-size: 12px;
+  margin-left: 10px;
+}
+.footer{
+  margin-top: 40px;
+  margin-left: 20px;
+  width: 100%;
+}
+.bio{
+  gap: none;
+  padding: 3px;
+}
+.bio p{
+  text-align: start;
+  gap: 0px;
+  padding: 20px;
+  padding-left: 20px;
+}
+/* end responsive for tbalet divices */
+}
+
+  

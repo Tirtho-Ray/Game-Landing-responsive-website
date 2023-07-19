@@ -347,6 +347,7 @@
 .footer{
     margin-top: 5px;
     background-color:rgb(95, 57, 190);
+    width: 100%;
 }
 .foot-logo{
     display: flex;
