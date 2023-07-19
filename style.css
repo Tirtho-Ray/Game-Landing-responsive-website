@@ -213,14 +213,15 @@
 .card-1{
     width: 302px;
     height: 272px;
-    border: 5px solid red;
     border-radius: 15px;
 }
 .card-1 img{
     width: 100%;
 }
-.card-1 :hover{
-    border-color: black;
+.card-1 img:hover{
+    border:3px solid rgb(230, 19, 19);
+    filter: blur(5px);
+        
 }
 /* end-game card */
 
